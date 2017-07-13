@@ -12,10 +12,10 @@ int main()
 {
 	//【0】改变console字体颜色  
 	system("color 1A");
-
+	//111
 	//【1】载入素材图  
-	Mat src1 = imread("test-5.jpg", 1);
-	Mat src2 = imread("test-6.jpg", 1);
+	Mat src1 = imread("test-1.png", 1);
+	Mat src2 = imread("test-2.png", 1);
 	//-- Step 1: Detect the keypoints using SURF Detector  
 	int minHessian = 800;
 	SurfFeatureDetector detector(minHessian);
@@ -77,8 +77,8 @@ int main()
 	//IplImage img = mat;
 	//cvConvert(&img, &warp_mat);*/
 
-	for (int i = 500; i < 550; i++) {
-		for (int j = 500; j < 550; j++) {
+	for (int i = 100; i < 150; i++) {
+		for (int j = 100; j < 150; j++) {
 			Mat t = Mat::ones(3, 1, CV_64F);
 			t.at<double>(0, 0) = i;
 			t.at<double>(1, 0) = j;
