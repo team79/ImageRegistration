@@ -1,5 +1,9 @@
 ﻿  源.cpp
-d:\github\imageregistration\imageregistration\源.cpp(87): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-d:\github\imageregistration\imageregistration\源.cpp(88): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
-  ImageRegistration.vcxproj -> D:\github\ImageRegistration\x64\Debug\ImageRegistration.exe
-  ImageRegistration.vcxproj -> D:\github\ImageRegistration\x64\Debug\ImageRegistration.pdb (Full PDB)
+f:\dml\github\imageregistration\imageregistration\源.cpp(77): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+f:\dml\github\imageregistration\imageregistration\源.cpp(78): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+  ImageRegistration.cpp
+f:\dml\github\imageregistration\imageregistration\imageregistration.cpp(89): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+f:\dml\github\imageregistration\imageregistration\imageregistration.cpp(90): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+  ImageRegistration.vcxproj -> F:\DML\github\ImageRegistration\x64\Debug\ImageRegistration.exe
+  ImageRegistration.vcxproj -> F:\DML\github\ImageRegistration\x64\Debug\ImageRegistration.pdb (Full PDB)
