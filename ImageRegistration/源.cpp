@@ -8,8 +8,8 @@ int main()
 	system("color 1A");
 
 	//¡¾1¡¿ÔØÈëËØ²ÄÍ¼  
-	Mat src1 = imread("test-5.jpg", 1);
-	Mat src2 = imread("test-6.jpg", 1);
+	Mat src1 = imread("test-1.png", 1);
+	Mat src2 = imread("test-2.png", 1);
 	//////-- Step 1: Detect the keypoints using SURF Detector  
 	////int minHessian = 800;
 	////SurfFeatureDetector detector(minHessian);
@@ -71,8 +71,8 @@ int main()
 	//IplImage img = mat;
 	//cvConvert(&img, &warp_mat);*/
 
-	for (int i = 500; i < 550; i++) {
-		for (int j = 500; j < 550; j++) {
+	for (int i = 100; i < 150; i++) {
+		for (int j = 100; j < 150; j++) {
 			Point2f temp = llll.getXY(i, j);
 			int temp1 = temp.x;
 			int temp2 = temp.y;
