@@ -1,14 +1,13 @@
-﻿生成启动时间为 2017/8/23 21:36:45。
+﻿生成启动时间为 2017/8/23 22:01:54。
      1>项目“G:\DML\github\ImageRegistration\ImageRegistration\ImageRegistration.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt ImageRegistration.cpp "源.cpp"
-         源.cpp
-     1>g:\dml\github\imageregistration\imageregistration\源.cpp(77): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
-     1>g:\dml\github\imageregistration\imageregistration\源.cpp(78): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
          ImageRegistration.cpp
      1>g:\dml\github\imageregistration\imageregistration\imageregistration.cpp(89): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
      1>g:\dml\github\imageregistration\imageregistration\imageregistration.cpp(90): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
          正在生成代码...
+         正在跳过...(未检测到相关更改)
+         源.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\DML\github\ImageRegistration\x64\Debug\ImageRegistration.exe" /INCREMENTAL /NOLOGO opencv_ml2413d.lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_objdetect2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_nonfree2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_videostab2413d.lib opencv_objdetect2413.lib opencv_ts2413.lib opencv_video2413.lib opencv_nonfree2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_videostab2413.lib opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"G:\DML\github\ImageRegistration\x64\Debug\ImageRegistration.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\DML\github\ImageRegistration\x64\Debug\ImageRegistration.lib" /MACHINE:X64 x64\Debug\ImageRegistration.obj
          "x64\Debug\源.obj"
@@ -17,4 +16,4 @@
 
 已成功生成。
 
-已用时间 00:00:02.75
+已用时间 00:00:02.05
