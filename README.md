@@ -3,7 +3,9 @@
 ## 图像配准类：
 
 文件：
+
 ImageRegistration.h
+
 ImageRegistration.cpp
 
 ```
@@ -38,5 +40,7 @@ Point2f temp = llll.getXY(i, j);
 ```
 
 ## 实际演示： 
+
+比如我们将src1中的（100，100）起的50*50的块涂黑，对应的src2中也在相应位置涂黑
 
 ![](https://github.com/team79/ImageRegistration/blob/master/test.png)
